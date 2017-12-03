@@ -1,0 +1,15 @@
+
+resource app_signature "application/x-vnd.janus.WordsClock";
+
+resource app_version {
+	major  = 0,
+	middle = 1,
+	minor  = 1,
+
+	variety = B_APPV_BETA,
+	internal = 0,
+
+	short_info = "A simple clock application",
+	long_info = "A clock that shows the time inaccurately"
+};
+
