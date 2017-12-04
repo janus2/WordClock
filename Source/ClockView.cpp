@@ -95,7 +95,7 @@ ClockView::_Init()
 	fWords[13] = new LabelView("w14", B_TRANSLATE("FIVE"));
 	fWords[14] = new LabelView("w15", B_TRANSLATE("SIX"));
 	fWords[15] = new LabelView("w16", B_TRANSLATE("SEVEN"));
-	fWords[16] = new LabelView("w17", B_TRANSLATE("HEIGHT"));
+	fWords[16] = new LabelView("w17", B_TRANSLATE("EIGHT"));
 	fWords[17] = new LabelView("w18", B_TRANSLATE("NINE"));
 	fWords[18] = new LabelView("w19", B_TRANSLATE("TEN"));
 	fWords[19] = new LabelView("w20", B_TRANSLATE("ELEVEN"));
