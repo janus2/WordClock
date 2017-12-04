@@ -48,7 +48,7 @@ enum clockwords {
 	words_FIVE,
 	words_SIX,
 	words_SEVEN,
-	words_HEIGHT,
+	words_EIGHT,
 	words_NINE,
 	words_TEN,
 	words_ELEVEN,
@@ -263,7 +263,7 @@ ClockView::Update() {
 			break;
 		case 7 : fWords[words_SEVEN]->SetLights(true);
 			break;
-		case 8 : fWords[words_HEIGHT]->SetLights(true);
+		case 8 : fWords[words_EIGHT]->SetLights(true);
 			break;
 		case 9 : fWords[words_NINE]->SetLights(true);
 			break;
