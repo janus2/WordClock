@@ -189,58 +189,55 @@ ClockView::Update() {
 	//cout << hours << minutes << endl;
 
 	fWords[words_ITIS]->SetLights(true);
-	
-	
-	int32 minute =  now.Minute();
 			
-	if (minute >= 55) 
+	if (minutes >= 55)
 		fWords[words_FIVE2]->SetLights(true);
 	else
-	if (minute >= 50)
+	if (minutes >= 50)
 		fWords[words_TEN2]->SetLights(true);
 	else
-	if (minute >= 45)
+	if (minutes >= 45)
 		fWords[words_QUARTER]->SetLights(true);
 	else
-	if (minute >= 40) {
+	if (minutes >= 40) {
 		fWords[words_TWENTY]->SetLights(true);
 	}else
-	if (minute >= 35) {
+	if (minutes >= 35) {
 		fWords[words_TWENTY]->SetLights(true);
 		fWords[words_FIVE2]->SetLights(true);
 	}
 	else	
-	if (minute >= 30) {
+	if (minutes >= 30) {
 		fWords[words_HALF]->SetLights(true);
 	}
 	else	
-	if (minute >= 25) {
+	if (minutes >= 25) {
 		fWords[words_TWENTY]->SetLights(true);
  		fWords[words_FIVE2]->SetLights(true);
 	}
 	else
-	if (minute >= 20) {
+	if (minutes >= 20) {
 		fWords[words_TWENTY]->SetLights(true);
 	}
 	else
-	if (minute >= 15) {
+	if (minutes >= 15) {
 		fWords[words_QUARTER]->SetLights(true);
 	}
 	else
-	if (minute >= 10)
+	if (minutes >= 10)
 		fWords[words_TEN2]->SetLights(true);
 	else
-	if (minute >= 5)
+	if (minutes >= 5)
 		fWords[words_FIVE2]->SetLights(true);
 	else
-	if (minute >= 0)
+	if (minutes >= 0)
 		fWords[words_OCLOCK]->SetLights(true);
 	
-	if (minute < 30 && minute >=5) {
+	if (minutes < 35 && minutes >=5) {
 		fWords[words_PAST]->SetLights(true);	
 	}
 	else
-	if (minute >= 35)
+	if (minutes >= 35)
 	{	
 		hours++;
 		fWords[words_TO]->SetLights(true);
