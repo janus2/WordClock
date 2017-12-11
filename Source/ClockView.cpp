@@ -500,7 +500,7 @@ ClockView::MessageReceived(BMessage *msg)
 		Update();
 		break;
 	case B_ABOUT_REQUESTED: {
-		BAlert *alert = new BAlert(B_TRANSLATE("About WorldClock"),
+		BAlert *alert = new BAlert(B_TRANSLATE("About WordClock"),
 			B_TRANSLATE("WordClock (The Replicant version)"),
 			B_TRANSLATE("OK"));
 		alert->SetFlags(alert->Flags() | B_CLOSE_ON_ESCAPE);

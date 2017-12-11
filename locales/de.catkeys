@@ -1,0 +1,31 @@
+1	German	x-vnd.janus.WordClock	224949292
+About WordClock	ClockView		Über WordClock
+Background	ClockView		Hintergrund
+Default	ClockView		Standard
+EIGHT	ClockView		ACHT
+ELEVEN	ClockView		ELF
+FIVE	ClockView		FÜNF
+FOUR	ClockView		VIER
+HALF	ClockView		HALB
+IT IS	ClockView		ES IST
+MINUTES	ClockView		MINUTEN
+NINE	ClockView		NEUN
+O'CLOCK	ClockView		UHR
+OK	ClockView		OK
+ONE	ClockView		EINS
+PAST	ClockView		NACH
+QUARTER	ClockView		VIERTEL
+SEVEN	ClockView		SIEBEN
+SIX	ClockView		SECHS
+TEN	ClockView		ZEHN
+Text	ClockView		Text
+THREE	ClockView		DREI
+TO	ClockView		VOR
+Transparent	ClockView		Transparent
+TWELVE	ClockView		ZWÖLF
+TWENTY	ClockView		ZWANZIG
+TWO	ClockView		ZWEI
+WordClock (The Replicant version)	ClockView		WordClock (die Replikant Version)
+Font	MainWindow		Schrift
+Size	MainWindow		Größe
+WordClock	System name		WordClock
