@@ -1,0 +1,31 @@
+1	Dutch	x-vnd.janus.WordClock	224949292
+About WordClock	ClockView		Over WoordKlok
+Background	ClockView		Achtergrond
+Default	ClockView		Standaard
+EIGHT	ClockView		ACHT
+ELEVEN	ClockView		ELF
+FIVE	ClockView		VIJF
+FOUR	ClockView		VIER
+HALF	ClockView		HALF
+IT IS	ClockView		HET IS
+MINUTES	ClockView		MINUTEN
+NINE	ClockView		NEGEN
+O'CLOCK	ClockView		UUR
+OK	ClockView		OK
+ONE	ClockView		EEN
+PAST	ClockView		NA
+QUARTER	ClockView		KWART
+SEVEN	ClockView		ZEVEN
+SIX	ClockView		ZES
+TEN	ClockView		TIEN
+Text	ClockView		Tekst
+THREE	ClockView		DRIE
+TO	ClockView		VOOR
+Transparent	ClockView		Transparent
+TWELVE	ClockView		TWAALF
+TWENTY	ClockView		TWINTIG
+TWO	ClockView		TWEE
+WordClock (The Replicant version)	ClockView		WoordKlok (De Replicant versie)
+Font	MainWindow		Font
+Size	MainWindow		Grootte
+WordClock	System name		WoordKlok

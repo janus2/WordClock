@@ -42,8 +42,8 @@ enum clockwords {
 	words_TO,
 	words_PAST,
 	words_ONE,
-	words_THREE,
 	words_TWO,
+	words_THREE,
 	words_FOUR,
 	words_FIVE,
 	words_SIX,
@@ -89,8 +89,8 @@ ClockView::_Init()
 	fWords[7] = new LabelView("w8", B_TRANSLATE("TO"));
 	fWords[8] = new LabelView("w9", B_TRANSLATE("PAST"));
 	fWords[9] = new LabelView("w10", B_TRANSLATE("ONE"));
-	fWords[10] = new LabelView("w11", B_TRANSLATE("THREE"));
-	fWords[11] = new LabelView("w12", B_TRANSLATE("TWO"));
+	fWords[10] = new LabelView("w11", B_TRANSLATE("TWO"));
+	fWords[11] = new LabelView("w12", B_TRANSLATE("THREE"));
 	fWords[12] = new LabelView("w13", B_TRANSLATE("FOUR"));
 	fWords[13] = new LabelView("w14", B_TRANSLATE("FIVE"));
 	fWords[14] = new LabelView("w15", B_TRANSLATE("SIX"));
@@ -118,15 +118,15 @@ ClockView::_Init()
 		.End()
 		.AddGroup(B_HORIZONTAL, 0) 
 				.Add(fWords[3])
-				.AddStrut(B_USE_SMALL_SPACING)//.AddGlue()
+				.AddGlue()
 				.Add(fWords[4])
 
 		.End()
 		.AddGroup(B_HORIZONTAL, 0)
 				.Add(fWords[5])
-				.AddGlue()
+				.AddStrut(B_USE_SMALL_SPACING)//.AddGlue()
 				.Add(fWords[6])
-				.AddGlue()
+				.AddStrut(B_USE_SMALL_SPACING)//.AddGlue()
 				.Add(fWords[7])
 		.End()
 		.AddGroup(B_HORIZONTAL, 0) 
